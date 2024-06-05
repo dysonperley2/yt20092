@@ -97,7 +97,7 @@ if(!config.userAgent) {
 } else {
     ua = config.userAgent;
 }
-fetch("http://yt2009-dyson.onrender.com/", {
+fetch("https://www.youtube.com/", {
     "headers": {
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
         "accept-language": "en-US,en;q=0.9",
